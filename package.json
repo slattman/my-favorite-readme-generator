@@ -1,6 +1,6 @@
 {
   "name": "my-favorite-readme-generator",
-  "version": "1.0.0",
+  "version": "latest",
   "description": "Generate Readme.md",
   "main": "index.js",
   "scripts": {
