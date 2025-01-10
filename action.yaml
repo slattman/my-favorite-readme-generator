@@ -1,0 +1,8 @@
+name: My Favorite Readme Generator
+description: a githut workflow action designed to generate a custom README.md
+branding:
+  icon: star
+  color: yellow
+runs:
+  using: node20
+  main: dist/index.js

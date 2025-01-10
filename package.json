@@ -1,0 +1,25 @@
+{
+  "name": "my-favorite-readme-generator",
+  "version": "1.0.0",
+  "description": "Generate Readme.md",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc -mC build index.js",
+    "test": "source .env && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slattman/my-favorite-readme-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slattman/my-favorite-readme-generator/issues"
+  },
+  "homepage": "https://github.com/slattman/my-favorite-readme-generator#readme",
+  "dependencies": {
+    "simple-octokit": "^1.0.0"
+  },
+  "type": "module"
+}

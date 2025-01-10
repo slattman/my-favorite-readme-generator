@@ -1,0 +1,14 @@
+name: my-favorite-readme-generator
+on:
+  workflow_call:
+jobs:
+  update:
+    runs-on: macos-latest
+    permissions: write-all
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: slattman/my-favorite-readme-generator@latest
+      - uses: slattman/commit-signed@latest
+      - run: gh run delete $(gh run list --json databaseId -q "map(.databaseId)[1]")
