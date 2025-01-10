@@ -9,12 +9,12 @@ import * as fs from 'node:fs'
   const outputdir = process.env.README_GENERATOR_OUTPUT_DIR?.replace(/[^0-9a-zA-Z_\/]/g, '') ?? ''
   const markdown = [`
   <div id="to-the-top" align="center">
-  <img width="47%" src="stats.svg" />
+  <a alt="anuraghazra/github-readme-stats" href="https://github.com/anuraghazra/github-readme-stats"><img width="47%" src="stats.svg" /></a>
   &nbsp;
-  <img width="50%" src="streak.svg" />
-  <img width="57%" src="activity.svg" >
+  <a alt="DenverCoder1/github-readme-streak-stats" href="https://github.com/DenverCoder1/github-readme-streak-stats"><img width="50%" src="streak.svg" /></a>
+  <a alt="Ashutosh00710/github-readme-activity-graph" href="https://github.com/Ashutosh00710/github-readme-activity-graph"><img width="57%" src="activity.svg" ></a>
   &nbsp;
-  <img width="40%" src="trophies.svg" />
+  <a alt="ryo-ma/github-profile-trophy" href="https://github.com/ryo-ma/github-profile-trophy"><img width="40%" src="trophies.svg" /></a>
   </div>
   <hr />
   `]
