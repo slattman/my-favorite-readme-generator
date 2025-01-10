@@ -14,7 +14,7 @@ on:
   workflow_call:
 jobs:
   update:
-    runs-on: macOS-latest
+    runs-on: macos-latest
     permissions: write-all
     env:
       GH_TOKEN: ${{ github.token }}
