@@ -4,8 +4,8 @@ a githut workflow action designed to generate a custom README.md
 
 ## Example Usage
 
-### my-favorite-readme-generator.yml
-```yml
+### my-favorite-readme-generator.yaml
+```yaml
 name: my-favorite-readme-generator
 on:
   schedule:
@@ -28,8 +28,8 @@ jobs:
 
 or alternatively as a reusable workflow - [more](https://docs.github.com/en/actions/sharing-automations/reusing-workflows)
 
-### generate-my-favorite-readme.yml
-```yml
+### generate-my-favorite-readme.yaml
+```yaml
 name: generate-my-favorite-readme
 on:
   workflow_dispatch:
